@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Router } from "@reach/router"
-import Home from './routes/Home'
-import Dash from './routes/Dash'
+import Movies from './routes/Movies'
+import Series from './routes/Series'
 
 import Navigation from './components/Navigation'
 
@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Navigation />
       <Router>
-        <Home path="/" />
-        <Dash path="dashboard" />
+        <Movies path="/" />
+        <Series path="dashboard" />
       </Router>
     </div>
   );

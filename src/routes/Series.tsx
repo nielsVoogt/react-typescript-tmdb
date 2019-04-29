@@ -2,8 +2,8 @@
 import * as React from 'react';
 import { RouteComponentProps } from '@reach/router';
 
-const Dash: React.FunctionComponent<RouteComponentProps> = (props) => {
+const Series: React.FunctionComponent<RouteComponentProps> = () => {
     return <h1>I am dash</h1>;
 };
 
-export default Dash
+export default Series

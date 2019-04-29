@@ -6,8 +6,8 @@ const Navigation: React.FunctionComponent = () => {
     return (
     <div>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="dashboard">Dashboard</Link>
+          <Link to="/">Movies</Link>
+          <Link to="dashboard">Series</Link>
         </nav>
       </div>
     )

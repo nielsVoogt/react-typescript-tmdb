@@ -4,9 +4,9 @@ import { RouteComponentProps } from '@reach/router';
 import MovieCard from '../components/MovieCard'
 import axios from 'axios';
 
-const Home: React.FunctionComponent<RouteComponentProps> = () => {
+const Movies: React.FunctionComponent<RouteComponentProps> = () => {
 
-    const apiKey = process.env.REACT_APP_OMDB_API_KEY
+    const apiKey = process.env.REACT_APP_TMDB_API_KEY
 
     return (
         <div>
@@ -16,10 +16,8 @@ const Home: React.FunctionComponent<RouteComponentProps> = () => {
                 year={2018}
                 id={1}
             />
-           
-            <p>{ apiKey && apiKey }</p>
         </div>
     );
 };
 
-export default Home
+export default Movies
